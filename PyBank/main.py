@@ -3,7 +3,7 @@ import os
 import csv
 
 #creating a path to retrieve the required csv file
-path=os.path.join("Resources","budget_data.csv")
+path=os.path.join("PyBank","Resources","budget_data.csv")
 
 #beginning the reading process
 with open(path, "r") as csvfile:
