@@ -3,7 +3,7 @@ import os
 import csv
 
 #identifying path allowing us to read the csv file
-path=os.path.join("Resources","election_data.csv")
+path=os.path.join("PyPoll","Resources","election_data.csv")
 
 #initializing the count of total ballots to 0 before analyzing each row, and also initializing lists for candidates and votes per candidate
 count=0
