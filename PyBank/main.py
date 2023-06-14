@@ -67,7 +67,7 @@ print(f"The Greatest Increase in Profits: {greatest_date} (${greatest_diff})")
 print(f"The Greatest Decrease in Profits: {lowest_date} (${lowest_diff})")
 
 #creating a text file and it's path
-output_path=os.path.join("Resources","analysis.txt")
+output_path=os.path.join("analysis.txt")
 
 #writing our analysis into separate rows and saving them into the associated text file
 with open(output_path,"w") as analysis:
