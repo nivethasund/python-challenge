@@ -3,7 +3,7 @@ import os
 import csv
 
 #identifying path allowing us to read the csv file
-path=os.path.join("PyPoll","Resources","election_data.csv")
+path=os.path.join("election_data.csv")
 
 #initializing the count of total ballots to 0 before analyzing each row, and also initializing lists for candidates and votes per candidate
 count=0
@@ -50,7 +50,7 @@ print(f"Winner : {winner}")
 print("----------------------------------------")
 
 #creating a text file to begin writing the analysis
-output_path=os.path.join("Resources","analysis.txt")
+output_path=os.path.join("analysis.txt")
 
 with open(output_path,"w") as analysis:
     analysis.write("Election Results\n")
